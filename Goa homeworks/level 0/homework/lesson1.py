@@ -1,5 +1,4 @@
 from turtle import begin_fill, color, end_fill, exitonclick, forward, goto, left, pendown, penup, right, speed, width
-
 #we want to paint a house
 #step 1: draw a square
 
@@ -84,5 +83,11 @@ forward(40)
 right(90)
 end_fill()
 
+penup()
+forward(60)
+left(90)
+forward(40)
+left(30)
+forward(200)
 
 exitonclick()
