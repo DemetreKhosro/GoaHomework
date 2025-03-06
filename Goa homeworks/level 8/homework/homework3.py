@@ -1,0 +1,7 @@
+name = input("Enter Your Name: ")
+surname = input("Enter Your Surname: ")
+age = input("Enter Your Age: ")
+location = input("Enter Your Location: ")
+occupation = input("Enter Your Occupation: ")
+hobby = input("Enter Your Hobby: ")
+print(name + " " + surname + " " + "is" + " " + age + " " + "years old," + " " + "lives in" + " " + location + "," + " " + "works as a" + " " + occupation + "," + " " + "and enjoys" + " " + hobby + ".")
