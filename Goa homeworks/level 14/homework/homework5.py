@@ -1,2 +1,2 @@
-for number in range(31):
+for number in range(20):
     print(number)
