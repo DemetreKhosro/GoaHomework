@@ -1,0 +1,30 @@
+<!--1) შექმენით ფორმა სადაც მოხმარებელი შეიყვანს სახელს, ემაილს და სქესს. ასევე უნდა შეეძლოს ფორმის დადასტურება, დაიცავით სტანდარტები და გამოიყენეთ name, value, required ატრიბუტები. კომენტარებით ახსენით თითოეული ატრიბუტის დანიშნულება-->
+<html>
+    <head>
+        <title>classwork</title>
+    </head>
+    <body>
+        <!--
+        name - ატრიბუტი რომელიც განსაზღვარვს შესატანი ველის მისამართს
+        value - ატრიბუტი განსაზაღვრავს შესატანი ველის მნიშვნელობას
+        required - ატრიბუტი ხელს შეუშლის ფორმის დადასტურებას, ესეიგი ინფორმაციის გადაგზავანს თუ ინფორმაცია არაა შეყვანილი ან არასწორ ფორმატია-->
+        <label for="name">First name :</label>
+        <input id="name" type="text">
+        <br><br>
+        <label for="email">Email :</label>
+        <input id="email" type="email">
+        <br><br>
+        <label for="age">Age</label>
+        <input id="age" type="number">
+        <br><br>
+        <label>Gender</label>
+        <br><br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="Gender" value="male">
+        <br><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="Gender" value="female">
+        <br><br>
+        <input type="submit">
+    </body>
+</html>
