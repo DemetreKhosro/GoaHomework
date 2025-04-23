@@ -1,4 +1,2 @@
-colors = ["წითელი", "მწვანე", "ლურჯი", "ყვითელი", "იასამნისფერი"]
-index = int(input("Enter number of index: "))
-
-print(colors[index])
+numbers = [10, 20, 30, 40, 50]
+print(numbers[3])

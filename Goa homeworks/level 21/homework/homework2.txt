@@ -1,0 +1,3 @@
+inline ელემენტები: button, label, input, b, i, u, a, em, strong, img, select, audio, video, br
+
+block-level ელემენტები: p, h1-h6, header, main, footer, aside, article, section, form, ol, ul, li

@@ -1,7 +1,3 @@
-'''colors = ["თეთრი", "შავი", "ნარინჯისფერი", "ვარდისფერი"]
-index = input("Enter index: ")
-color = input("Enter new color: ")'''
-
 colors = ["თეთრი", "შავი", "ნარინჯისფერი", "ვარდისფერი"]
 
 index = int(input("Enter index 0-3: "))
