@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        /*CSS specificity - თუ ერთ HTML ელემენტზე გამოყენებული არის რამდენიმე გასტილვის საშუალება, ბრაუზერი წყვეტს თუ რომელი არის პრიორიტეტული და სტილავს იმით*/
+        /*CSS Priority
+        1.Inline style
+        2.ID style
+        3.Class style
+        4.Element style*/
+
+        /*Class*/
+        .element {
+            color: red;
+        }
+        /*ID*/
+        #element {
+            color: red;
+        }
+        /*Element*/
+        p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="element">Class styling</p>
+    <p id="element">ID styling</p>
+    <!--Inline-->
+    <p style="color: red;">Inline styling</p>
+    <p>Element styling</p>
+</body>
+</html>

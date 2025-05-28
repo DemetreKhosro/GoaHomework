@@ -1,0 +1,44 @@
+<!--2) კომენტარებით დაწერეთ CSS-ის სხვადსხვა წესების სელექტორად იგივე ელემენტი როდესაც გვაქვს რომელი სტილი იმარჯვებს, რომელი სელექტორია ყველაზე პრიორიტეტული. მოიყვანეთ ყველა დონის მაგალითი-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork</title>
+    <style>
+        /*თუ სხვადასხვა წესების სელექტორად იგივე ელემენტი გვაქვს, ამ დროს იმარჯვებს Inline CSS რადგან ის არის ყველაზე პრიორიტეტული*/
+        
+        /*CSS პრიოტეტები 
+        1. Inline
+        2. ID
+        3. Class
+        4. Element*/
+
+        /*<!--Class მაგალითი-->*/
+        .div1 {
+            color: blue;
+        }
+        /*ID მაგალითი*/
+        #div2 {
+            color: yellow;
+        }
+        /*Element მაგალითი*/
+        h1 {
+            color: violet;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Header 1</h1>
+    </div>
+
+    <div id="div2">
+        <h2>Header 2</h2>
+    </div>
+        <!--Inline მაგალითი-->
+    <div>
+        <h3 style="color: red;">Header 3</h3>
+    </div>
+</body>
+</html>
