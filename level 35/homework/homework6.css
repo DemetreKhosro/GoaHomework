@@ -1,0 +1,15 @@
+#p2 {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    text-transform: uppercase;
+    text-shadow: 10px 10px 2px;
+}
+
+#p3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: yellow;
+    text-transform: lowercase;
+    text-shadow: 5px 15px 4px;
+}
