@@ -1,0 +1,27 @@
+<!--1) შექმენით 3 პარაგრაფი, რომლებსაც მიანიჭებთ განსხვავებულ შრიფტებს, font-family კუთვნილების გამოყენებით. თითოეულ პარაგრაფს გაწერილი უნდა ჰქონდეს მინიმიუმ 2 მნიშვნელობა font-family კუთვნილებაზე, პირველი აღებული google fonts-იდან, ხოლო მეორე რომელიმე generic ფონტი რომელსაც vs code გთავაზობთ იმ შემთხევისთვის თუ მომხმარებლის ბრაუზერა ვერ აღიქვა პირველად გადაცეული ფონტი. პარაგრაფებში ჩაწერეთ ფონტის სახელწოდება და დაიმპორტის გზა. პირველი პარაგრაფის ფონტი დააიმპორტეთ HTML-ის კოდით, მეორე CSS-ის კლასით და მიანიჭეთ კლასი საბოლოოდ კი გამოიყენეთ CSS import url() კომენტარებით დაწერეთ რომელიმე ამ 3 შორის საუკეთესო გზა და ახსენით რა არის generic ფონტი-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classwork</title>
+    <link rel="stylesheet" href="classwork1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap" rel="stylesheet">
+    <style>
+        #p1 {
+            font-family: Matangi, sans-serif;
+        }
+        #p3 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">Matangi</p>
+    <p id="p2">WDXL Lubrifont</p>
+    <p id="p3">Georgia</p>
+</body>
+</html>

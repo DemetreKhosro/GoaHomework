@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&family=WDXL+Lubrifont+JP+N&display=swap');
+
+#p2 {
+    font-family: WDXL Lubrifont JP N, sans-serif;
+}
+
+/*Generic ფონტი არის ფონტი რომელსაც VS code გვთავაზობს
+სულ არსებობს 3 ფონტის მიღების გზა: import, Html link, CSS class. ამ 3-ს შორის ჩემი აზრით საუკეთესო გზა @import არის.
+*/
