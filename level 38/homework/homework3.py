@@ -4,6 +4,3 @@ def manual_count(list, element):
         if item == element:
             count += 1
     return count
-
-
-print(manual_count([1, 1, 1, 2, 3, 4, 5], 1))
