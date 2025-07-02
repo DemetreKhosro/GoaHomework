@@ -1,0 +1,14 @@
+input[type=text], input[type=password] {
+    border-radius: 8px; 
+    border: 2px solid gray;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: darkgreen;
+}

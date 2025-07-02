@@ -1,0 +1,13 @@
+input[type=text], textarea {
+    border-radius: 5px;
+    border: 1px solid blue;
+    text-transform: capitalize;
+}
+
+form {
+    background-color: lightgray;
+}
+
+input[type=text]:hover {
+    background-color: blue;
+}

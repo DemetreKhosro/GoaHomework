@@ -1,0 +1,11 @@
+/*1) შექმენით ორი სია: 1 დალაგებული და მეორე დაულაგებელი. სიაში ჩამოწერეთ თქვენთის სურველი ელემენტები და გასტილეთ ორივე სია. პირველის შემთხვევაში გამოიყენეთ 3 ნასწავლი ქვე-კუთვნილება: list-style-position, list-style-type, list-style-img. ხოლო მეორეში გააერთიანეთ 3-ივე კუთვნილება list-style-ში. არ აურიოთ სემანტიკა*/
+
+ol {
+    list-style-position: outside;
+    list-style-type: georgian;
+    list-style-image: none;
+}
+
+ul {
+    list-style: georgian outside none;
+}
