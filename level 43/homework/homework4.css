@@ -1,0 +1,39 @@
+#div1 {
+    color: blue;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+#div2 {
+    color: red;
+    background-color: orange;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+}
+
+#div3 {
+    color: darkgreen;
+    background-color: green;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+
+#div4 {
+    color: gray;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+}
+
+#div5 {
+    color: goldenrod;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 30px;
+}

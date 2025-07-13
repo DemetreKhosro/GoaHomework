@@ -1,0 +1,15 @@
+padding - აშორებს ელემენტის შიგთავსს მისი საზღვრიდან და ზრდის ელემენტის ზომას
+margin - აშორებს ელემენტს სხვა ელემენტებისგან
+
+Box model-ის ყველა შრე
+content
+padding
+margin
+border
+
+Css reset კოდი
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}

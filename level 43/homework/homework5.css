@@ -1,0 +1,14 @@
+#container {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: 5px solid black;
+    margin: 30px;
+}
+
+/*
+padding - შიგთავსის გარეთ სივრვცე
+margin - ელემენტის გარე შრე რომელიც ელემენტს აშორებს სხვა ელემენტებისგან
+border - ელემენტის საზღვარი
+content - შიგთავსი
+*/
