@@ -1,0 +1,20 @@
+div {
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    width: 40%;
+    align-content: center;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 10px;
+    height: 10%;
+}
