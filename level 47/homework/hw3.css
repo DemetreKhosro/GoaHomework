@@ -1,0 +1,41 @@
+.box {
+    width: 400;
+    height: 500;
+    display: flex;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+#container {
+    justify-content: space-between;
+    text-align: center;
+    justify-items: flex-end;
+}
+
+#div1 {
+    position: fixed;
+    background-color: blue;
+    text-align: left;
+    justify-content: left;
+    z-index: 4;
+}
+
+#div2 {
+    position: absolute;
+    background-color: red;
+    z-index: 2;
+}
+
+#div3 {
+    position: sticky;
+    background-color: darkgrey;
+    z-index: 5;
+}
+
+#div4 {
+    position: relative;
+    background-color: black;
+    z-index: 1;
+}

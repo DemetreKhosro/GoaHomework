@@ -1,0 +1,39 @@
+/*1) შექმენით flexbox განლაგება, რომელშიც იქნება 3 შვილი ელემენტი, basic styles (box-model, colors, flexbox), შემდეგ გამოიყეენთ position კუთვნილება, პირველ ელემნტს გაუწერეთ relative, მეორეს absoulute , მესამეს fixed. ასევე შეცვალეთ თითოეულის მდებოარეობა top, bottom, left, right კუთვნილებებით, კომენტარებით ახსენითთ თითოეული პოზციის ვარიანტი. შეეცადეთ გააკეთოთ ლამაზი დიზანიც მაგალითში*/
+
+/*
+relative პოზიცია კავშირშია სხვა child element-ებთან და გადაადგილდება საკუთარი ადგილის/პოზიციის მიმართ
+sticky პოზიცია ეკრანის მითითებული ადგილზე არის ყოველთვის სქროლვის დროსაც
+absoulte გამოდის დინებიდან და ადგილს იკავებს უახლოეს მშობელ ელემენტთან რომელსაც position კუთვნილება აქვს მინიჭებული
+*/
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#div1 {
+    position: relative;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    background-color: blue;
+    z-index: 4;
+}
+
+#div2 {
+    position: absolute;
+    top: 70px;
+    left: 10px;
+    right: 10px;
+    background-color: red;
+    z-index: 2;
+}
+
+#div3 {
+    position: sticky;
+    top: 30px;
+    left: 10px;
+    right: 10px;
+    background-color: yellow;
+    z-index: 3;
+}
