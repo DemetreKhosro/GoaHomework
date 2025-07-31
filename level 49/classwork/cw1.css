@@ -1,0 +1,24 @@
+/*1) შექმენით container div, რომელსაც გაუწერეთ თადავაპირველ ზომებს, borders და background კუთვნილებებს. კომენტარებით ახსენით background-size-ის მნიშვნლობები contain და cover
+
+background-color
+background-image
+background-size
+background-position
+background-attachment
+*/
+
+/*
+cover - ფარავს div-ს მოცემული image-ით რამხელაც არ უნდა იყოს div-ი
+contain - ადიდებს image-ს იმდენად რამდენადაც შეიძლება ხარისხის გაუფუჭებლად
+*/
+
+#container {
+    border: 5px solid blue;
+    height: 80vh;
+    background-color: gray;
+    background-image: linear-gradient(blue, green);
+    background-size: contain;
+    background-position: right bottom;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}

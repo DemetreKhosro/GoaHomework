@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#image {
+    background-image: url(images/laptop.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 25%;
+}
+
+#container {
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    text-align: center;
+    width: 25%;
+    margin-right: 35%;
+    margin-top: 10%;
+}
+
+#container button {
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#container p {
+    text-align: right;
+}
+
+input {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#image img {
+    margin-left: 50%;
+    width: 50%;
+    height: 50%;
+    margin-top: 25%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
