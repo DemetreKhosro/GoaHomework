@@ -4,5 +4,4 @@ celsius = [10, 20, 30, 40]
 
 for temperature in celsius:
     fahrenheit = celsius_to_fahrenheit(temperature)
-
-print(fahrenheit)
+    print(fahrenheit)
