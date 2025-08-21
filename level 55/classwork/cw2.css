@@ -1,0 +1,43 @@
+/*2) შექმენით keyframe რომელიც შვილ ელემენტს აბრუნებს მშობელი ელემენტის კიდეების გარშემო. შემდეგ ეს keyframe გაუწერეთ შვილ ელემენტის animation კუთვნილებას, შემდეგ მნიშვნლობებთან ერთად
+
+duration
+timing-function
+delay
+iteration count
+hover: playstate
+fill-state
+*/
+
+
+#child {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#parent:hover {
+    animation: spin 2s linear bakcwards infinite;
+    width: 600px;
+    height: 600px;
+    background-color: blue;
+}
+
+@keyframes spin {
+    25% {
+        transform: translateY(-100%);
+        background-color: red;
+    }
+
+    50% {
+        transform: translateX(100%);
+        background-color: green;
+    }
+
+    75% {
+        transform: translateY(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
