@@ -3,5 +3,3 @@ def add(*nums):
     for num in nums:
         total += num
     return total
-
-print(add(1, 2, 3))

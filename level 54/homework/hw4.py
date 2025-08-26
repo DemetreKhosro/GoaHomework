@@ -1,5 +1,3 @@
 def info(**names):
     if 'name' in names and 'age' in names:
-        print(f'name: {names['name']}, age {names['age']}')
-
-info(name='deme', age=14)
+        print(f'name: {names['name']}, age: {names['age']}')
