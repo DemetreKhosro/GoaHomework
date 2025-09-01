@@ -1,0 +1,9 @@
+'''https://www.codewars.com/kata/5861d28f124b35723e00005e/train/python'''
+# Will you make it?
+
+def zero_fuel(distance_to_pump, mpg, fuel_left):
+    #Happy Coding! ;)
+    if mpg * fuel_left >= distance_to_pump:
+        return True
+    else:
+        return False

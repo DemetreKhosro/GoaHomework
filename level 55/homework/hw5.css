@@ -13,7 +13,6 @@ body {
     height: 400px;
 }
 
-/* Sun */
 .sun {
     position: absolute;
     top: 50%;
@@ -26,7 +25,6 @@ body {
     z-index: 2;
 }
 
-/* Orbits */
 .orbit {
     position: absolute;
     top: 50%;
@@ -50,7 +48,6 @@ body {
     animation-duration: 12s;
 }
 
-/* Planets */
 .planet {
     position: absolute;
     top: 50%;
@@ -79,7 +76,6 @@ body {
     transform: translateX(140px);
 }
 
-/* Animation */
 @keyframes spin {
 100% {
     transform: translate(-50%, -50%) rotate(360deg);

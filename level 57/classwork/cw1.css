@@ -1,0 +1,19 @@
+/*1) შექმენით მსგავსი grid layout*/
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: black;
+    padding: 10px;
+}
+
+header, main, aside, footer {
+    background: yellow;
+    padding: 20px;
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
