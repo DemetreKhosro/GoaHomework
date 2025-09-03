@@ -7,5 +7,3 @@ class Student:
         return self.grade >= 50
     
 student = Student('Joe', 49)
-
-print(student.check_pass())
