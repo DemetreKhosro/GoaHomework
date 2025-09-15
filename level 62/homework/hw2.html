@@ -6,14 +6,13 @@
     <title>Document</title>
 </head>
 <body>
+    <button id="btn">Click Me</button>
+    <p id="text">Hello</p>
+
     <script>
-        let a = 5;
-        let b = 3;
-        
-        console.log(a + b);
-        console.log(a - b);
-        console.log(a * b);
-        console.log(a / b);
+        document.getElementById("btn").onclick = function() {
+            document.getElementById('text').textContent = "You clicked the button";
+        }
     </script>
 </body>
 </html>
