@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('blue')">Blue</button>
+
+    <p id="para">Some text</p>
+
+    <script>
+        //1) შექმენით ფუნქცია რომელიც cosole-ში გამოიტანს "Hello World"-ს, შემდეგ შექმენით ფუნქცია რომელიც დააბრუნებს რაიმე რიცხვს, აიღეთ ახალი ფუნქცია და დააბრუნეთ 2 რიცხვის ჯამი და საბოლოოდ ფუნქცია რომელიც არგუმენტად მიიღებს ფერს და კონკრეტულ პარაგრაფს მიანჭებს არგუმენტად გადაცემულ ფერს
+
+        function greet() {
+            console.log("Hello world")
+        }
+
+        function returnNumber(number) {
+            return number
+        }
+
+        function add(a, b) {
+            return a + b
+        }
+
+        const paragraph = document.getElementById("para")
+
+        function changeColor(color) {
+            paragraph.style.backgroundColor = color
+        }
+
+
+        // ფუნქცია არის მრავალჯერადად გამოყენებადი კოდის ბლოკი, ზოგჯერ მას ვაძლევთ პარამეტრებს რომ მან მათი მიხედვით იმუშაოს მაგალითად როგორც ამ ფუნქციას გადავეცი color პარამეტრი
+        // განსხვავება return-სა და console.log() შორის არის ის რომ console.log() გვაჩვენებს მნიშვნელობას ხოლო return გვიბრუნებს მას რომ კიდევ გამოვიყენოთ
+    </script>
+</body>
+</html>
