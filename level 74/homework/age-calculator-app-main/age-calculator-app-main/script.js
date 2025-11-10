@@ -39,7 +39,7 @@ form.addEventListener('submit', function(event) {
     if (days < 0) {
         months--;
         const prevMonth = new Date(today.getFullYear(), today.getMonth(), 0)
-        days += prevMonth.getdate();    
+        days += prevMonth.getDate();    
     }
 
     if (months < 0) {
