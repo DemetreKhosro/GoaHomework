@@ -12,6 +12,10 @@ submitBtn.addEventListener('click', function(e) {
     for (let i = 0; i < info.length; i++) {
         if (info[i].value == '') {
             info[i].style.border = '3px solid red'
+        } for (let i = 0; i < info.length; i++) {
+            if (info[i].includes(' ')) {
+                alert('Following information cannot contain spaces')
+            }
         }
     }
     if (firstName.value == '') {
