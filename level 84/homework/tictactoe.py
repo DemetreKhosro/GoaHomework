@@ -10,7 +10,8 @@ def display_board(board):
             row += board[r][c]
         print(" " + row + " ")
         if r < 2:
-            print("-----------")  # row separator
+            # row separator
+            print("-----------")
 
 # Check if the player has won
 def check_winner(board, player):
@@ -58,14 +59,17 @@ def board_full(board):
 def player_move(board, player):
     while True:
         move = input(player + "'s turn (1-9): ")
-        if not move.isdigit():  # check if input is a number
+        # check if input is a number
+        if not move.isdigit():
             continue
         move = int(move)
-        if move < 1 or move > 9:  # check range
+        # check range
+        if move < 1 or move > 9:
             continue
         r = (move - 1) // 3
         c = (move - 1) % 3
-        if board[r][c] == " ":  # check if cell empty
+        # check if cell empty
+        if board[r][c] == " ":
             board[r][c] = player
             break
 
@@ -84,7 +88,8 @@ def ai_move(board, player):
 def tic_tac_toe():
     print("Tic Tac Toe")
     mode = input("Mode: 1=2 players, 2=vs AI: ")
-    scores = {"X": 0, "O": 0}  # track scores
+    # track scores
+    scores = {"X": 0, "O": 0}
 
     while True:
         # create empty board
@@ -97,17 +102,21 @@ def tic_tac_toe():
         # play until win or tie
         while True:
             if mode == "2" and current == "O":
-                ai_move(board, current)  # AI turn
+                # AI turn
+                ai_move(board, current)
                 print("AI moved:")
             else:
-                player_move(board, current)  # Player turn
+                # Player turn
+                player_move(board, current)  
             display_board(board)
 
-            if check_winner(board, current):  # check win
+            # check win
+            if check_winner(board, current):
                 print(current + " wins!")
                 scores[current] = scores[current] + 1
                 break
-            if board_full(board):  # check tie
+            # check tie
+            if board_full(board):
                 print("Tie!")
                 break
 
@@ -123,5 +132,4 @@ def tic_tac_toe():
         if again != "y":
             break
 
-# start the game
 tic_tac_toe()
